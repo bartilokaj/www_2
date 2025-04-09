@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br via-yellow-50 min-h-screen">
+  <div class="flex flex-col sm:flex-row justify-evenly items-center p-4 gap-8">
+    <div class="flex flex-col items-center gap-6 border-2 border-gray-300 rounded-lg p-4 shadow-lg bg-white">
+        <p class="text-2xl p-4 font-bold text-amber-900">British shorthair</p>
+        <div class="relative bg-amber-700 p-3 rounded-md shadow-xl sm:w-[25vw] sm:h-[15vw] w-[80vw] h-[50vw]">
+            <img src="./img/brown.jpg" alt="Placeholder Image" class="w-full h-full object-cover rounded-md shadow-md">
+            <div class="absolute bottom-2 right-2 w-[10%] aspect-square">
+                <img src="./img/like.webp" class="animate-ping w-full h-full object-cover"></img>
+              </div>
+        </div>
+        <p class="text-gray-700">
+            The British Shorthair is a sturdy and calm cat breed, known for its round face, large eyes, and plush, dense coat. 
+            Often seen in a classic "blue" (gray) color, it’s a favorite among cat lovers for its gentle and undemanding nature.
+          </p>
+    </div>
+    <div class="flex flex-col items-center gap-6 border-2 border-gray-300 rounded-lg p-4 shadow-lg bg-white">
+        <p class="text-2xl p-4 font-bold text-gray-800">Maine coon</p>
+        <div class="relative bg-gray-700 p-3 rounded-md shadow-xl/50 sm:w-[25vw] sm:h-[15vw] w-[80vw] h-[50vw]">
+            <img src="./img/gray.png" alt="Placeholder Image" class="w-full h-full object-cover rounded-md shadow-md">
+            <div class="absolute bottom-2 right-2 w-[10%] aspect-square">
+                <img src="./img/like.webp" class="animate-ping w-full h-full object-cover"></img>
+              </div>
+        </div>
+        <p class="text-gray-700 pd-4">
+            The Maine Coon is one of the largest domestic cat breeds, admired for its majestic appearance and sociable personality. 
+            With long, thick fur and a bushy tail, it’s friendly, intelligent, and often enjoys water play!
+          </p>
+    </div>
+    <div class="flex flex-col items-center gap-6 border-2 border-gray-300 rounded-lg p-4 shadow-lg bg-white">
+        <p class="text-2xl p-4 font-bold text-sky-700">Turkish angora</p>
+        <div class="relative bg-blue-900 p-3 rounded-md shadow-xl/70 sm:w-[25vw] sm:h-[15vw] w-[80vw] h-[50vw]">
+            <img src="./img/white.jpeg" alt="Placeholder Image" class="w-full h-full object-cover rounded-md shadow-md">
+            <div class="absolute bottom-2 right-2 w-[10%] aspect-square">
+                <img src="./img/like.webp" class="animate-ping w-full h-full object-cover"></img>
+              </div>
+        </div>
+        <p class="text-gray-700 pd-4">
+            The Turkish Angora is a sleek and elegant cat, famous for its silky coat and striking eye colors. 
+            Agile and energetic, it loves attention and often follows its owner like a curious shadow.
+          </p>
+    </div>
+  </div>
+  <div class="flex justify-center items-center mt-8">
+    <table class="table-auto border-collapse border border-gray-300">
+        <thead class="bg-gray-300">
+          <tr>
+            <th class="border border-gray-300 px-4 py-2 text-left">Breed</th>
+            <th class="border border-gray-300 px-4 py-2 text-left">Color</th>
+            <th class="border border-gray-300 px-4 py-2 text-left">Female Mass</th>
+            <th class="border border-gray-300 px-4 py-2 text-left">Male Mass</th>
+            <th class="border border-gray-300 px-4 py-2 text-left">Maximum Length</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">British shorthair</td>
+            <td class="border border-gray-300 px-4 py-2">Brown</td>
+            <td class="border border-gray-300 px-4 py-2">3-5 kg</td>
+            <td class="border border-gray-300 px-4 py-2">4-8 kg</td>
+            <td class="border border-gray-300 px-4 py-2">56-64 cm</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">Maine coon</td>
+            <td class="border border-gray-300 px-4 py-2">Gray</td>
+            <td class="border border-gray-300 px-4 py-2">5-7 kg</td>
+            <td class="border border-gray-300 px-4 py-2">8-10 kg</td>
+            <td class="border border-gray-300 px-4 py-2">100 cm</td>
+          </tr>
+          <tr>
+            <td class="border border-gray-300 px-4 py-2">Turkish angora</td>
+            <td class="border border-gray-300 px-4 py-2">White</td>
+            <td class="border border-gray-300 px-4 py-2">2-3 kg</td>
+            <td class="border border-gray-300 px-4 py-2">3-4 kg</td>
+            <td class="border border-gray-300 px-4 py-2">34-40 cm</td>
+          </tr>
+        </tbody>
+      </table>
+  </div>
+
+  <div class="flex flex-col justify-center items-center p-8">
+    <p class="text-amber-900 text-7xl font-bold p-4 flex justify-center">Cats Gallery</p>
+    <div class="relative border-2 border-gray-300 p-4 shadow-lg bg-white w-[80vw] h-[45vw] rounded-xl overflow-hidden">
+        <div class="flex flex-row justify-center items-center gap-4 p-4 w-full h-full">
+            <img src="./img/cat1.jpeg" class="flex-none w-64 object-cover rounded-md shadow-md"></img>
+            <img src="./img/cat2.jpg" class="flex-auto w-32 object-cover rounded-md shadow-md"></img>
+            <img src="./img/cat3.jpg" class="flex-auto w-22 object-cover rounded-md shadow-md"></img>
+        </div>
+  </div>
+  <a href="https://pl.pinterest.com/aynulsworldbd/cute-cat-collection/" class="text-emerald-400 text-2xl font-bold p-4 flex justify-center">More cute cats!</a>
+</body>
+</html>
